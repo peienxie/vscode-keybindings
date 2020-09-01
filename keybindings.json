@@ -1,0 +1,53 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+      "key": "ctrl+shift+/",
+      "command": "editor.action.blockComment",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+alt+a",
+      "command": "-editor.action.blockComment",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+shift+n",
+      "command": "-workbench.action.newWindow"
+    },
+    {
+      "key": "ctrl+shift+n",
+      "command": "workbench.action.tasks.test"
+    },
+    {
+      "key": "ctrl+k oem_3",
+      "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+      "key": "ctrl+j",
+      "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+      "key": "ctrl+oem_3",
+      "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+      "key": "ctrl+w",
+      "command": "workbench.action.terminal.kill",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+k",
+      "command": "workbench.action.terminal.focusNext",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+l",
+      "command": "workbench.action.terminal.newInActiveWorkspace",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+alt+e",
+      "command": "workbench.action.editor.changeEncoding"
+    }
+  ]
+  
